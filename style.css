@@ -1,0 +1,79 @@
+header{
+    background: linear-gradient(to top,rgb(0, 0, 192),rgb(80, 80, 255));
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+main{
+    background: linear-gradient(to top,rgb(0, 0, 140),rgb(0, 0, 192));
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+.mom{
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.son{
+    background: linear-gradient(to top,rgb(0, 0, 140),rgb(0, 0, 192));
+    float: left; 
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    padding-left: 6px;
+}
+
+.daughter{
+    background: linear-gradient(to top,rgb(0, 0, 140),rgb(0, 0, 192));
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.daughter img{
+    margin: 20px;
+    width: 350px;
+}
+
+.daughter iframe{
+    margin: 20px;
+    width: 400px;
+    height:300px;
+}
+
+footer{
+    background: linear-gradient(to top,rgb(0, 0, 0),rgb(0,0,140));
+    width: 100%;
+    height: 200px;
+    display: flex;
+    color: white;
+}
+
+.fleft{
+    width: 30%;
+    height: 100%;
+}
+
+.fright{
+    width: 70%;
+    height: 100%;  
+}
+
+.fright ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.fright img{
+    width: 150px;
+    padding-left: 20px;
+}
